@@ -1,0 +1,710 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+  <head>
+
+	  <!-- Google Tag Manager -->
+
+	  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+	  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+	  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+	  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+	  })(window,document,'script','dataLayer','GTM-KHLDC6C');</script>
+
+	  <!-- End Google Tag Manager -->
+
+
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=1099">
+
+    <meta name="format-detection" content="telephone=no">
+
+        <link rel="apple-touch-icon" href="//style.keibabook.co.jp/www/images/common/apple-touch-icon.png">
+
+    <link rel="shortcut icon" href="//style.keibabook.co.jp/images/common/favicon.ico">
+
+    <title>
+
+      地方競馬　年間日程|競馬ブック
+    </title>
+
+    <meta name="keywords" content="競馬,予想,結果,レース,オッズ,競馬ブック,JRA,競馬場,馬主,騎手">
+
+    <meta name="description" content="">
+
+        <!-- styleshhet start -->
+
+    <link rel="stylesheet" type="text/css" href="//style.keibabook.co.jp/www/css/reset.css?20231020" media="all" />
+
+    <link rel="stylesheet" type="text/css" href="//style.keibabook.co.jp/www/css/clear.css" media="all" />
+
+    <link rel="stylesheet" type="text/css" href="//style.keibabook.co.jp/www/css/global.css?20240109" media="all" />
+
+    <link rel="stylesheet" type="text/css" href="//style.keibabook.co.jp/www/css/main.css?20240322" media="all" />
+
+    <link rel="stylesheet" type="text/css" href="//style.keibabook.co.jp/www/css/common.css?20240717" media="all" />
+
+    <link rel="stylesheet" type="text/css" href="//style.keibabook.co.jp/kessai/css/form.css?20170831" media="all" />
+
+    <link rel="stylesheet" type="text/css" href="//style.keibabook.co.jp/www/css/select2.min.css" media="all" />
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" /> -->
+
+
+
+        <!-- styleshhet end -->
+
+    <!-- script start  -->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+    <script src="//style.keibabook.co.jp/www/js/jquery.tablesorter.min.js"></script>
+
+    <script src="//style.keibabook.co.jp/www/js/select2.min.js"></script>
+
+        <!-- script end  -->
+
+    <script type="text/javascript" src="//style.keibabook.co.jp/www/js/googleanalytics.js"></script>
+
+    <meta name="google-site-verification" content="1AinhEAROVihN-QgOMt_kHNLPBy6AYf1HeD-ZFdKYXg" />
+
+  </head>
+
+  <body>
+
+	  <!-- Google Tag Manager (noscript) -->
+
+	  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHLDC6C"
+
+	  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+	  <!-- End Google Tag Manager (noscript) -->
+
+
+
+    <!-- header start  -->
+
+    <div id="header" class="w1099">
+
+
+
+      <div class="header_wrap">
+
+
+
+  			<div class="header_box" id="header_box_menu">
+
+  				<p class="menu header_menubox_OpenBtn"></p>
+
+  				<p class="menu header_menubox_CloseBtn" style="display: none;">×</p>
+
+  				<span style="font-size: 50%;">&nbsp;設定</span>
+
+  			</div><!-- /.header_box menu -->
+
+
+
+  			<div class="header_box logo">
+
+  				<h1>
+
+                  					     <a href="https://p.keibabook.co.jp" class="p">p.keibabook.co.jp</a>
+
+                      				</h1>
+
+  			</div><!-- /.header_box logo -->
+
+
+
+        <!--  -->
+
+    		<div class="header_box search">
+
+
+
+    			<form method="post" action="/db/search/horse" class="selectform header_search" target="_blank">
+
+
+
+    			<!--  -->
+
+    			<div class="element">
+
+    				<table class="default header_search">
+
+    				<tbody>
+
+    				<tr>
+
+    					<td class="left">
+
+    						<select name="<!-- 指定して下さい -->" class="selectbox" style="width: 8em;">
+
+    						<option value="bamei">馬名</option>
+
+    						<option value="brood">母馬名</option>
+
+    						<option value="sire">種牡馬名</option>
+
+    						<option value="banushi">馬主名</option>
+
+    						<option value="jockey">騎手名</option>
+
+    						<option value="trainer">厩舎名</option>
+
+    						</select>
+
+    						<input type="text" id="keyword" name="bamei" style="width: 40%;" maxlength="256" class="ime_on" value="" placeholder="検索したい文字">
+
+    						<button class="bookbutton">検索</button>
+
+    					</td>
+
+    				</tr>
+
+    				</tbody>
+
+    				</table>
+
+    			</div><!-- /.element -->
+
+
+
+    			</form><!-- / -->
+
+
+
+    		</div><!-- /.header_searchbox -->
+
+
+
+			<!-- ログインチェック -->
+
+			
+
+			<!-- ログイン状態を表示 -->
+
+			<div id="logincheck">
+
+			</div><!-- /. -->
+
+
+
+			<!-- logincheckを取得 -->
+
+			<script type="text/javascript">
+
+			$( document ).ready( function() {
+
+				var cache = (new Date).getTime();
+
+				ajaxload_logincheck( 'logincheck', 'logincheck' );
+
+			} );
+
+			</script>
+
+
+
+			<!-- 20181115 -->
+
+			<div class="header_box none" style="display: table-cell;">
+
+				<a href="/login/login" class="logout"></a>
+
+				<span style="font-size: 50%;">&nbsp;</span>
+
+			</div><!-- /.header_box -->
+
+
+
+			<!-- 20181115 -->
+
+			<div class="header_box none" style="display: table-cell;">
+
+				<a href="/mypage/index" class="mypage"></a>
+
+				<span style="font-size: 50%;">&nbsp;マイページ</span>
+
+			</div><!-- /.header_box -->
+
+
+
+  		</div><!-- /.header_wrap -->
+
+
+
+
+
+  		<!--  -->
+
+  		<div class="header_menubox" style="display: none;">
+
+
+
+  				<p></p>
+
+
+
+  			<!--  -->
+
+  			<div class="element">
+
+  				<table class="default settei">
+
+  				<caption>個人設定</caption>
+
+  				<tbody>
+
+
+
+  				<tr>
+
+  					<td class="left">
+
+  						<label class="radiolabel"><input type="checkbox" name="settei_umalink" id="settei_umalink" value="1" class="kojin_settei">馬は新しいウインドウで開く</label>
+
+  					</td>
+
+  					<td class="left">
+
+  						※出馬表などから馬名をクリックしたときは新しいウインドウ（タブ）で開きます。
+
+  					</td>
+
+  				</tr>
+
+
+
+  				<tr>
+
+  					<td class="left">
+
+  						<label class="radiolabel"><input type="checkbox" name="cpusort_auto" id="cpusort_auto" value="1" class="kojin_settei">コンピュータ予想の並び替え順を記憶する</label>
+
+  					</td>
+
+  					<td class="left">
+
+  						※コンピュータ予想の並び替え順を記憶して、レースを切り替えたときもその並びで表示します。
+
+  					</td>
+
+  				</tr>
+
+
+
+				
+
+  				<tr>
+
+  					<td class="left">
+
+  						<label class="radiolabel"><input type="checkbox" name="jyokensitei_not_save" id="jyokensitei_not_save" value="on" class="kojin_settei">完全データの条件指定を記憶しない</label>
+
+  					</td>
+
+  					<td class="left">
+
+  						※完全データの条件指定を記憶せず、新たに完全データを開いた場合は全データが表示されます。
+
+  					</td>
+
+  				</tr>
+
+
+
+  				</tbody>
+
+  				</table>
+
+  			</div><!-- /.element -->
+
+
+
+  		</div><!-- /.header_menubox -->
+
+
+
+
+
+  	</div><!-- /.header_content -->
+
+
+
+
+
+    </div><!-- /#header -->
+
+    <!-- header end  -->
+
+
+
+
+
+    <!-- header start -->
+
+    <div id="menu">
+  <div class="globalmenu clearfix">
+    <ul class="w1099">
+      <li class=""><a href="/" title="HOME">HOME</a></li>
+      <li class=""><a href="/cyuou/top" title="中央競馬">中央競馬</a></li>
+      <li class="active"><a href="/chihou/top" title="地方競馬">地方競馬</a></li>
+	  <li class=""><a href="//netshinbun.keibabook.co.jp/" target="_blank" title="ネット新聞">ネット新聞</a></li>
+      <li class=""><a href="/db/search/horse" title="データ検索">データ検索</a></li>
+      <li class=""><a href="/kaigai/nittei" title="海外競馬">海外競馬</a></li>
+	  <li class=""><a href="/myuma/list" title="My馬">My馬</a></li>
+      <li class=""><a href="/mysirusi/hit" title="My印">My印</a></li>
+      <li class=""><a href="/keibabookmovie/tmtalk" title="動画">動画</a></li>
+	  <li class=""><a href="/tm/top" title="TM">スタッフ</a></li>
+      <li class=""><a href="/news/all" title="ニュース">ニュース</a></li>
+      <li class=""><a href="/column/neraiuma/1" title="コラム">コラム</a></li>
+	  <li class=""><a href="/game/pogmaster_tbl_kekka" title="アミューズメント">アミューズメント</a></li>
+      <li class=""><a href="/support" title="サポート">サポート</a></li>
+      <li class=""><a href="/support/sitemap" title="サイトマップ">サイトマップ</a></li>
+    </ul>
+  </div><!-- /.globalmenu -->
+  
+      
+            <div class="globalnavi">
+        <ul class="w1099">
+            <li class=""><a href="/chihou/top" title="Top">Top</a></li>
+            <li class="active"><a href="/chihou/nittei/top" title="開催日程">年間日程</a></li>
+            <li class=""><a href="/chihou/cyokuzen/99999999" title="TM直前情報">TM直前情報</a></li>
+            <li class=""><a href="/chihou/nouken/nittei" title="能力検定">能力検定</a></li>
+                        <li class=""><a href="http://keiba-lv-st.jp/" target="_blank" title="インターネット中継">インターネット中継</a></li>
+            <!--
+            <li class=""><a href="/chihou/column" title="コラム">コラム</a></li>
+            <li class=""><a href="/chihou/topix" title="トピックス">トピックス</a></li>
+            -->
+        </ul>
+    </div><!-- /.globalnavi -->
+  
+</div><!-- /#menu end-->
+
+
+    <div class="l-wrap w1099">
+
+
+
+	
+
+	</div><!-- /#l-wrap -->
+
+
+
+    <!-- /#container start       -->
+
+    <div id="container" class="w1099">
+
+
+
+      <!-- /#flex_container_top start -->
+
+      <div id="flex_container_top" class="clearfix">
+
+        <!-- /.main start -->
+
+        <div class="main">
+
+          <!-- お知らせ
+
+          <div class="oshirase clearfix">
+
+            <ul class="">
+
+              <li class="midashi">速報</li>
+
+              <li class="title"></li>
+
+            </ul>
+
+          </div> oshirase clearfix end  -->
+
+          <div class="midasi">
+    <p>開催日程</p>
+</div>
+<div class="menuindex">
+    <ul class="cyuou clearfix">
+        <li class="active"><a href="/chihou/nittei/top" title="Top">年間日程</a></li>
+        <li class=""><a href="/db/race/dgrade" title="重賞一覧">重賞一覧</a></li>
+    </ul>
+</div>
+<div class="section">
+    <div class="selectmenu">
+        <table class="default selectmenu">
+            <tbody>
+                <td>
+                    <span style="color:red; ">主催者から番組が発表されていないものは表示しておりません</span>
+                </td>
+                <td class="title">
+                    年を選択
+                </td>
+                <td>
+                    <select class="selectboxlink" style="width: 7em;" onChange="location.href=value;">
+                                                                        <option value="202507">2025年</option>
+                                                                                                <option value="202407">2024年</option>
+                                                                                                <option value="202307">2023年</option>
+                                                                                                <option value="202207">2022年</option>
+                                                                                                <option value="202107" selected>2021年</option>
+                                                                                                <option value="202007">2020年</option>
+                                                                                                <option value="201907">2019年</option>
+                                                                                                <option value="201807">2018年</option>
+                                                                                                <option value="201707">2017年</option>
+                                                                    </select>
+                </td>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="section">
+    <div class="tab month">
+        <ul>
+                                                <li><a href="202101">1月</a></li>
+                                                            <li><a href="202102">2月</a></li>
+                                                            <li><a href="202103">3月</a></li>
+                                                            <li><a href="202104">4月</a></li>
+                                                            <li><a href="202105">5月</a></li>
+                                                            <li><a href="202106">6月</a></li>
+                                                            <li class="active"><a href="202107">7月</a></li>
+                                                            <li><a href="202108">8月</a></li>
+                                                            <li><a href="202109">9月</a></li>
+                                                            <li><a href="202110">10月</a></li>
+                                                            <li><a href="202111">11月</a></li>
+                                                            <li><a href="202112">12月</a></li>
+                                </ul>
+    </div>
+</div>
+<div class="midasi_sub">
+    <p>2021年7月</p>
+</div>
+
+競馬ブックweb,webライト会員以外の方は、表示対象は本年度分および昨年度分のみとなります。
+
+		<div class="sectionfull">
+		<div id="weblite_web">
+		</div><!-- /. -->
+		</div><!-- /.sectionfull -->
+
+		<!-- 競馬ブックwebライトとwebのご案内を取得 -->
+		<div class="sectionfull">
+		<script type="text/javascript">
+		$( document ).ready( function() {
+			var cache = (new Date).getTime();
+			ajaxload( 'weblite_web', 'weblite_web' );
+		} );
+		</script>
+		</div><!-- /.sectionfull -->
+		
+        </div><!-- /.main end -->
+
+        <div class="side"><!-- /.saide start -->
+
+          
+		<div class="sectionfull">
+		<div id="omatase">
+		</div><!-- /. -->
+		</div><!-- /.sectionfull -->
+
+		<!-- お待たせ最新案内を取得 -->
+		<div class="sectionfull">
+		<script type="text/javascript">
+		$( document ).ready( function() {
+			var cache = (new Date).getTime();
+			ajaxload( 'omatase', 'omatase' );
+		} );
+		</script>
+		</div><!-- /.sectionfull -->
+		
+        </div><!-- /.side end  -->
+
+      </div><!-- /#flex_container_top end -->
+
+
+
+
+
+      <!-- flex_container start -->
+
+      <div id="flex_container" class="clearfix">
+
+        <div id="fullcontent"><!-- fullcontent start -->
+
+                </div><!--  #fullcontent end -->
+
+      </div><!-- #flex_container end -->
+
+    </div><!-- container end  -->
+
+
+
+
+
+
+
+    <!-- footer start -->
+
+    
+
+    <!-- footer start -->
+
+    <div id="footer">
+
+
+
+    	<div id="footer_content" class="w1099">
+
+            <p class="footer_message">
+
+    		成績、配当等は主催者発行のものと照合してください。<br>
+
+　　　　当サイトからの無断転載、複写、蓄積または転送することは禁止します。
+
+    		</p>
+
+    		<div class="footer-links">
+
+    		<ul>
+
+				<li><a href="/entry/teikyo/p">提供内容（パソコンサイト）</a></li>
+
+    			<li><a href="/support/sitemap">サイトマップ</a></li>
+
+    			<li><a href="/support/privacy">プライバシーポリシー</a></li>
+
+    			<li><a href="/support/gaiyou">会社概要</a></li>
+
+    			<li><a href="/support/tokutei">特定商取引に基づく表示</a></li>
+
+                      
+
+            <li><a href="/support/enquiry">お問い合わせ</a></li>
+
+              		</ul>
+
+    		</div><!-- /.footer-links -->
+
+
+
+    		<p class="copyright">
+
+    		Copyright (C) keibabook Co.,Ltd.. All Rights Reserved.
+
+    		</p>
+
+
+
+    	</div><!-- /#footer_content -->
+
+
+
+    </div><!-- footer end -->
+
+
+
+    
+
+
+
+
+
+	<!-- js-modal-message -->
+
+	<div id="js-modal-message" class="modal js-modal">
+
+
+
+		<div class="modal__bg js-modal-close"></div>
+
+
+
+		<div class="modal__content" style="width: 90%; max-width: 640px;">
+
+
+
+			<!--  -->
+
+			<div class="supportbox rakusatsu">
+
+
+
+				<div class="box-title">
+
+					<p class="js-message_title">
+
+						<!-- REPLACE_MESSAGE_TITLE	-->
+
+					</p>
+
+				</div><!-- /.box-title -->
+
+
+
+				<div class="box-honbun js-message_honbun" style="height: auto; overflow: auto;" >
+
+				</div><!-- /.box-honbun -->
+
+
+
+				<p class="footer_right js-message_negahi">
+
+
+
+				</p>
+
+			</div>
+
+
+
+			<!--  -->
+
+			<div class="element margin_jrha" style="text-align: center; margin: 0 0 0.5rem;">
+
+
+
+				<button class="button simple js-modal-close" value="" style="width: 5rem;" >閉じる</button>
+
+
+
+			</div>
+
+
+
+		</div><!--modal__inner-->
+
+
+
+	</div><!-- js-modal-message-->
+
+
+
+
+
+    <p class="pagetop"><a href="#Top">上へ</a></p>
+
+
+
+    <script src="//style.keibabook.co.jp/www/js/booklibrary.js?20240216"></script>
+
+
+
+          <script src="//style.keibabook.co.jp/www/js/copy.js?20220518"></script>
+
+    
+
+  </body>
+
+</html>
+
