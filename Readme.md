@@ -2,6 +2,17 @@ Python project to scrape horse race data.
 
 ## HOW TO RUN
 
+On linux :
+```
+source ./run.sh
+```
+or on windows (run with git bash) :
+```
+./run.sh
+```
+
+Details:
+
 Steps:
 Create a virtual environment in your project directory:
 ```
